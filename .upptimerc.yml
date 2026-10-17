@@ -11,30 +11,40 @@ sites:
   - name: GameSphere Website
     url: https://gamesphere.rs
     type: globalping
-    icon: https://gamesphere.rs/favicon.ico
+    icon: https://gamesphere.rs/favicon.svg
 
   - name: API Services
     url: https://gamesphere.rs/api/health
+    icon: https://gamesphere.rs/favicon.svg
 
-  - name: Control Panel
+  - name: GameSphere Panel
     url: https://panel.gamesphere.rs
+    icon: https://gamesphere.rs/favicon.svg
 
   - name: Database Engine
     url: https://gamesphere.rs/api/health/db
-    icon: https://gamesphere.rs/favicon.ico
+    icon: https://gamesphere.rs/favicon.svg
 
   - name: Game Nodes
     url: https://gamesphere.rs/api/health
     type: globalping
+    icon: https://gamesphere.rs/favicon.svg
 
 status-website:
   cname: status.gamesphere.rs
   name: GameSphere Systems Status
   introTitle: "**GameSphere Systems Status**"
-  introMessage: "Real-time automated reachability and latency telemetry for bare-metal game servers, Feather Control Panel, and edge API infrastructure."
+  introMessage: "Real-time reachability and operational status monitoring for bare-metal game servers, GameSphere Panel, and edge API infrastructure."
   theme: dark
-  logoUrl: https://gamesphere.rs/favicon.ico
-  favicon: https://gamesphere.rs/favicon.ico
+  logoUrl: https://gamesphere.rs/img/logo.png
+  favicon: https://gamesphere.rs/img/logo.png
+  faviconSvg: https://gamesphere.rs/favicon.svg
+  css: |
+    .logo img {
+      height: 2.25rem !important;
+      width: auto !important;
+      object-fit: contain !important;
+    }
   navbar:
     - title: Status
       href: /
@@ -44,4 +54,4 @@ status-website:
       href: https://gamesphere.rs/dashboard
 
 commits:
-  commitMessage: ":robot: Telemetry update [skip ci]"
+  commitMessage: ":robot: Status update [skip ci]"

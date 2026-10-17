@@ -2,7 +2,7 @@
   {
     "name": "GameSphere Website",
     "url": "https://gamesphere.rs",
-    "icon": "https://gamesphere.rs/favicon.ico",
+    "icon": "https://gamesphere.rs/favicon.svg",
     "slug": "game-sphere-website",
     "status": "up",
     "uptime": "100.00%",
@@ -20,7 +20,7 @@
   {
     "name": "API Services",
     "url": "https://gamesphere.rs/api/health",
-    "icon": "https://icons.duckduckgo.com/ip3/gamesphere.rs.ico",
+    "icon": "https://gamesphere.rs/favicon.svg",
     "slug": "api-services",
     "status": "up",
     "uptime": "100.00%",
@@ -36,10 +36,10 @@
     "dailyMinutesDown": {}
   },
   {
-    "name": "Control Panel",
+    "name": "GameSphere Panel",
     "url": "https://panel.gamesphere.rs",
-    "icon": "https://icons.duckduckgo.com/ip3/panel.gamesphere.rs.ico",
-    "slug": "control-panel",
+    "icon": "https://gamesphere.rs/favicon.svg",
+    "slug": "game-sphere-panel",
     "status": "up",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
@@ -56,7 +56,7 @@
   {
     "name": "Database Engine",
     "url": "https://gamesphere.rs/api/health/db",
-    "icon": "https://gamesphere.rs/favicon.ico",
+    "icon": "https://gamesphere.rs/favicon.svg",
     "slug": "database-engine",
     "status": "up",
     "uptime": "100.00%",
@@ -74,7 +74,7 @@
   {
     "name": "Game Nodes",
     "url": "https://gamesphere.rs/api/health",
-    "icon": "https://icons.duckduckgo.com/ip3/gamesphere.rs.ico",
+    "icon": "https://gamesphere.rs/favicon.svg",
     "slug": "game-nodes",
     "status": "up",
     "uptime": "100.00%",
