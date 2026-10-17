@@ -1,0 +1,74 @@
+/* GameSphere Dark Glassmorphism Theme for Upptime */
+
+:root {
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --bg-color: #09090b;
+  --text-color: #f4f4f5;
+  --text-muted: #a1a1aa;
+  --card-background: rgba(18, 18, 22, 0.75);
+  --accent-color: #10b981;
+  --accent-glow: rgba(16, 185, 129, 0.35);
+  --border-color: rgba(255, 255, 255, 0.08);
+  --down-color: #ef4444;
+  --degraded-color: #f59e0b;
+  --border-radius: 12px;
+}
+
+body {
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) !important;
+  font-family: var(--font-family) !important;
+  background-image: 
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(16, 185, 129, 0.12), transparent),
+    radial-gradient(circle at 80% 80%, rgba(99, 102, 241, 0.05), transparent) !important;
+  min-height: 100vh;
+}
+
+header, nav {
+  background: rgba(9, 9, 11, 0.8) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border-bottom: 1px solid var(--border-color) !important;
+}
+
+nav a {
+  color: var(--text-color) !important;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+nav a:hover {
+  color: var(--accent-color) !important;
+}
+
+.card, article, section.status-section, div.status-card {
+  background: var(--card-background) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: var(--border-radius) !important;
+  box-shadow: 0 4px 24px -1px rgba(0, 0, 0, 0.3) !important;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.card:hover {
+  border-color: rgba(16, 185, 129, 0.3) !important;
+}
+
+.status-badge, .badge, .tag {
+  border-radius: 9999px !important;
+  font-weight: 600 !important;
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  border-radius: var(--border-radius) !important;
+}
