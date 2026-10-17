@@ -20,7 +20,7 @@
   {
     "name": "API Services",
     "url": "https://gamesphere.rs/api/health",
-    "icon": "https://gamesphere.rs/favicon.ico",
+    "icon": "https://icons.duckduckgo.com/ip3/gamesphere.rs.ico",
     "slug": "api-services",
     "status": "up",
     "uptime": "100.00%",
@@ -38,7 +38,7 @@
   {
     "name": "Control Panel",
     "url": "https://panel.gamesphere.rs",
-    "icon": "https://gamesphere.rs/favicon.ico",
+    "icon": "https://icons.duckduckgo.com/ip3/panel.gamesphere.rs.ico",
     "slug": "control-panel",
     "status": "up",
     "uptime": "100.00%",
@@ -74,7 +74,7 @@
   {
     "name": "Game Nodes",
     "url": "https://gamesphere.rs/api/health",
-    "icon": "https://gamesphere.rs/favicon.ico",
+    "icon": "https://icons.duckduckgo.com/ip3/gamesphere.rs.ico",
     "slug": "game-nodes",
     "status": "up",
     "uptime": "100.00%",
