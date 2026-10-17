@@ -1,0 +1,47 @@
+# ==============================================================================
+# GameSphere Serverless Uptime Monitor Configuration
+# Powered by Upptime (https://upptime.js.org) & GitHub Actions
+# ==============================================================================
+
+owner: EVOLCORE
+repo: GameSphere-uptime
+user-agent: GameSphere-Status-Bot
+
+sites:
+  - name: GameSphere Website
+    url: https://gamesphere.rs
+    type: globalping
+    icon: https://gamesphere.rs/favicon.ico
+
+  - name: API Services
+    url: https://gamesphere.rs/api/health
+
+  - name: Control Panel
+    url: https://panel.gamesphere.rs
+
+  - name: Database Engine
+    url: https://gamesphere.rs/api/health/db
+    icon: https://gamesphere.rs/favicon.ico
+
+  - name: Game Nodes
+    url: https://gamesphere.rs/api/health
+    type: globalping
+
+status-website:
+  cname: status.gamesphere.rs
+  name: GameSphere Systems Status
+  introTitle: "**GameSphere Systems Status**"
+  introMessage: "Real-time automated reachability and latency telemetry for bare-metal game servers, Feather Control Panel, and edge API infrastructure."
+  theme: dark
+  logoUrl: https://gamesphere.rs/favicon.ico
+  favicon: https://gamesphere.rs/favicon.ico
+  navbar:
+    - title: Status
+      href: /
+    - title: GameSphere Home
+      href: https://gamesphere.rs
+    - title: Client Dashboard
+      href: https://gamesphere.rs/dashboard
+
+commits:
+  commitMessage: ":robot: Telemetry update [skip ci]"
